@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>习题工坊 · 小学练习卷生成器（口算 / 竖式 / 字帖 / 单词默写）</title>
+<meta name="description" content="习题工坊：免费、纯前端的小学练习卷生成器。一键生成 A4 可打印的口算题、竖式计算、汉字字帖和英语单词默写，支持答案页、随机种子、离线使用，数据不上传。">
+<meta name="keywords" content="口算练习,口算题卡,竖式计算,字帖生成,田字格字帖,单词默写,练习卷生成器,免费打印,小学生数学">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Arial'%3E习%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar no-print">
+  <div class="brand">
+    <span class="logo">习</span>
+    <div class="brand-text">
+      <strong>习题工坊</strong>
+      <small>Worksheet Forge · 免费开源 · 数据不上传</small>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="练习类型">
+    <button type="button" class="tab" data-mode="oral" role="tab">口算练习</button>
+    <button type="button" class="tab" data-mode="vertical" role="tab">竖式计算</button>
+    <button type="button" class="tab" data-mode="hanzi" role="tab">汉字字帖</button>
+    <button type="button" class="tab" data-mode="words" role="tab">单词默写</button>
+  </nav>
+  <div class="top-actions">
+    <button type="button" class="btn ghost" id="btn-shuffle" title="换一批题目">换一批</button>
+    <button type="button" class="btn primary" id="btn-print">打印 / 导出 PDF</button>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="controls no-print" id="controls" aria-label="练习设置"></aside>
+  <section class="preview" id="preview" aria-label="练习卷预览"></section>
+</main>
+
+<footer class="footer no-print">
+  <span>习题工坊 · 纯前端生成，题目与答案均由本地算法计算，不收集任何输入内容。</span>
+  <span class="sep">·</span>
+  <span>使用提示：打印时请选择 A4 纸张、缩放 100%、关闭页眉页脚。</span>
+</footer>
+
+<script src="assets/pinyin-pro.umd.js"></script>
+<script src="data/presets.js"></script>
+<script src="data/words.js"></script>
+<script src="assets/generate.js"></script>
+<script src="assets/render.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# 构建与测试产物（不纳入仓库）
+_vendor/
+_test/
+node_modules/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# 生成的 PDF / 截图（如需要请手动归档）
+*.pdf
