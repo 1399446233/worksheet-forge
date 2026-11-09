@@ -9,5 +9,6 @@ Thumbs.db
 desktop.ini
 *.log
 
-# 生成的 PDF / 截图（如需要请手动归档）
+# 生成的 PDF / 截图（如需要请手动归档）；samples/ 为公开免费样张，需纳入仓库
 *.pdf
+!samples/*.pdf
