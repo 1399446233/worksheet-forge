@@ -6,7 +6,7 @@
 [![No Build](https://img.shields.io/badge/build-none%20required-brightgreen.svg)](#快速开始)
 [![Offline](https://img.shields.io/badge/offline-ready-success.svg)](#隐私与安全)
 
-**在线使用：** https://&lt;你的用户名&gt;.github.io/worksheet-forge/ （部署后替换为真实地址）
+**在线使用：** https://1399446233.github.io/worksheet-forge/ （部署后替换为真实地址）
 
 ---
 
